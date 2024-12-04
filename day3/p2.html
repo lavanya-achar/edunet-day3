@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Matrix with Grid</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex; /* For centering the grid container */
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px); /* 3 columns, each 100px wide */
+            grid-template-rows: repeat(3, 100px); /* 3 rows, each 100px tall */
+            gap: 20px; /* Spacing between rows and columns */
+        }
+
+        .img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover; /* Maintain image aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 1" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 2" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 3" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 4" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 5" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 6" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 7" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 8" class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbSId-JoSJUM6q9thBk0LSuOJXS04VDF_UA&s" alt="Image 9" class="img">
+    </div>
+</body>
+</html>
